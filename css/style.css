@@ -234,6 +234,7 @@ label[for="chkMenu"]{
 
 .banner .order-form{
     position: absolute;
+ 
     bottom: 0;
     left:50%;
     text-align: center;
@@ -248,6 +249,23 @@ label[for="chkMenu"]{
 .banner .order-form form{
     display: flex;
     flex-direction: column;
+    gap: 5px;
+  
+}
+
+.banner .order-form form button,
+.banner .order-form form input{    
+    padding: 15px;
+}
+
+.banner .order-form form input{
+    border: 3px solid rgb(247, 244, 244);
+    opacity: 0.5; 
 }
 
 
+.banner .order-form div{
+    flex-direction: column;
+    color: aliceblue;
+    padding: 10px;
+}
