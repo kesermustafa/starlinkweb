@@ -234,7 +234,7 @@ label[for="chkMenu"]{
 
 .banner .order-form{
     position: absolute;
- 
+    width: 70%;
     bottom: 0;
     left:50%;
     text-align: center;
@@ -249,20 +249,35 @@ label[for="chkMenu"]{
 .banner .order-form form{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
   
 }
 
 .banner .order-form form button,
-.banner .order-form form input{    
+.banner .order-form form input{
+   
     padding: 15px;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    border: 2px solid rgb(247, 244, 244);
 }
 
 .banner .order-form form input{
-    border: 3px solid rgb(247, 244, 244);
-    opacity: 0.5; 
+
+    background-color: rgba(255, 255, 255, 0.281);
+
+}
+.banner .order-form form input:focus{
+    outline: none;
 }
 
+::placeholder {
+    color: #f1efef;
+    font-size: 0.7rem;
+}
 
 .banner .order-form div{
     flex-direction: column;
